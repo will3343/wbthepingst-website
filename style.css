@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    height: 100%;
+    font-size: 1rem;
+    background-color: rgba(11, 34, 163, 0.637);
+}
+.logo img{
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    color: #000000    
+
+}
+nav{
+    background: darkgray;
+    box-shadow: 0 0 29px rgb(134, 134, 134/25%);
+}
+.page-header{
+    margin-top: 3rem;
+    font-size: 1.25rem;
+    color: #000000
+}
+.header-img{
+   /* height: 400px;
+    width: 600px; */
+  width: 550px;
+  height: 350px;
+  margin-top: 3rem;
+  border: 2px solid green;
+  background: lightblue;
+  border-radius: 40px;
+  position: relative;
+  transform: translate(0);
+  transform-style: preserve-3d;
+}
+.about-img{
+  width: 550px;
+  height: 350px;
+  margin-top: 3rem;
+  border: 2px solid green;
+  background: lightblue;
+  border-radius: 40px;
+  position: relative;
+  transform: translate(0);
+  transform-style: preserve-3d;
+}
+.wu{
+  width: 550px;
+  height: 350px;
+  margin-top: 3rem;
+  border: 2px solid green;
+  background: lightblue;
+  border-radius: 40px;
+  position: relative;
+  transform: translate(0);
+  transform-style: preserve-3d;
+}
+.about{
+    margin-top:80px;
+    background: darkgray;
+    padding: 80px;
+}
+#services{
+    margin:80px 0px;
+}
+
+.single.service{
+    background-color: darkgray ;
+    border:1px solid #eceff8;
+    border-radius: 5px;
+    padding:25px;
+    margin:25px;
+    transition:all 0.3s ease-out;
+}
+.single-service .service-icon{
+    font-size: 60px;
+    color: #754ef9;
+    line-height:56px;
+}
+.service-content{
+    margin-top:11px;
+}
+.service-title a{
+    font-size:22px;
+    font-weight:600;
+    text-decoration:none;
+    color:32333c;
+    margin-bottom:20px;
+    transition: all 0.4s ease-out;
+}
+.service-title a:hover{
+    color:#754ef9
+}
+.single-service:hover{
+    box-shadow:0 0 21px rgba(152, 152, 152, 0.3)
+}
+
+/************Contact**************/
+.contact-box{
+    background-color: lightslategray;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    height: 250px;
+    margin-bottom: 15px;
+    transition: all 0.4s ease-out;
+    position: center;
+}
+.contact.content{
+margin-top: 15px;
+}
+.contact.title{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px;
+}
+.contact-box:hover{
+    box-shadow: 0 0 21px 0px rgba(152, 152, 152, 9.3);
+}
+
+/***********footer***************/
+.foot {
+    text-align: center;
+    padding: 10px;
+    background-color: lightgrey;
+    color: white;
+    margin: 0px;
+  }
+
+/*********responsive**********/
+
+@media (max-width:600px){
+    .header-text, .about-text{
+        margin: 30px;
+        text-align: center;
+    }
+    .header-img{
+        display: none;
+    }
+    .about-img{
+        display: none;
+    }
+}
